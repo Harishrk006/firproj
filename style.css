@@ -1,0 +1,285 @@
+*{
+	border: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	font-family: 'poppins',sans-serif;
+}
+.nav-links li{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+	 color: white;
+}
+
+:root{
+	--primary: #e52165;
+	--secondary: #0d1137;
+}
+header{
+	height: 120vh;
+	background: linear-gradient(rgba(0,0,0,0.1),black), url(img/kar1.jpg);
+	background-size: cover;
+}
+#abtimg{
+	height: 100vh;
+	background: linear-gradient(rgba(0,0,0,0.1),black), url(img/kar1.jpg);
+	background-size: cover;
+}
+.header-content{
+	 background-color: var(--secondary);
+  height: 15vh;
+}
+.logo{
+	height: 15vh;
+}
+.logo img{
+  height: 100%;
+}
+.flogo{
+	height: 15vh;
+	margin-top: 20px;
+}
+.flogo img{
+  height: 100%;
+}
+.nav-links{
+	 width: 40%;
+	display: flex;
+  align-items: center;
+ justify-content: space-around;
+}
+.nav-links li a:hover{
+  color: white;
+}
+.nav-links li:hover{
+  transform: scale(1.4);
+  transition: transform 0.5s;
+}
+nav{
+  width: 95%;
+  margin: auto;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.text-center{
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.btn{
+	color: white;
+	background-color: var(--primary);
+	padding: 10px 15px;
+	text-align: center;
+	font-size: 18px;
+
+}
+.btn:hover{
+ transform: scale(1.4);
+  transition: transform 0.5s;
+}
+.content{
+	max-width: 1020px;
+	margin: auto;
+}
+.mb{
+	margin-bottom: 5rem;
+}
+.mt{
+	margin-top: 5rem;
+}
+.flex-design{
+display: flex;
+  align-items: center;
+ justify-content: space-around;
+}
+.wwa-box{
+	background-color: var(--primary);
+	color: white;
+	padding: 10px 15px;
+	text-align: center;
+	margin-left: 10px;
+}
+.wwa-box:hover{
+	box-shadow: 3px 5px 11px 0px black;
+}
+.vwwa-box {
+	margin-left: 0px;
+}
+.wwa-content{
+	background-color: white;
+}
+.course{
+	position: relative;
+}
+
+.course-img{
+	position: relative;
+	height: 50vh;
+	background: linear-gradient(rgba(0,0,0,0.18),black);
+	width: 500px;
+	display: flex;
+	margin: 2rem;
+}
+.course-img:after{
+	position: absolute;
+	content: '';
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+.con{
+	top: 50%;
+	position: absolute;
+	color: black;
+	text-align: center;
+	transform: translatex(40%);
+	font-size: 25px;
+}
+.course:hover .course-img:hover{
+  transition: transform 0.5s;
+  	box-shadow: 3px 5px 11px 0px black;
+}
+.course-img img{
+display: block;
+}
+.course{
+	position: relative;
+}
+
+.course-con{
+	display: grid;
+
+	grid-template-columns: repeat(auto-fit,minmax(500px,1fr));
+}
+.about-us-content{
+	padding: 10px;
+	margin: 10px;
+	text-align: auto;
+  line-height: 1.5;
+}
+.student-img{
+	width: 500px;
+	height: 50vh;
+	float: left;
+	display: flex;
+	padding: 15px;
+	
+}
+.student-text{
+	float: right;
+	width: 60%;
+	text-align: auto;
+	margin-top: 50px;
+	padding: 15px 15px;
+	line-height: 1.5;
+}
+.student-imgr{
+	width: 500px;
+	height: 50vh;
+	float: right;
+	display: flex;
+	padding: 15px;
+}
+.student-textr{
+	float: left;
+	width: 60%;
+	text-align: auto;
+	margin-top: 50px;
+	padding: 15px 15px;
+	line-height: 1.5;
+}
+.full{
+	padding: 15px 15px;
+height: 100%;
+	background-color: #736E6E;
+	display: inline-block;
+}
+footer{
+	height: 25vh;
+	 background-color: var(--secondary);
+	 border-spacing: none;
+}
+.course-table-con{
+	width: 40%;
+		text-align: center;
+	margin: auto;
+}
+.course-table th ,.course-table td{
+	width: 40%;
+	padding: 40px 40px;
+	}
+	.course-table th{
+		background-color: lightgray;
+		color: black;
+		
+	}
+.table-in tr:nth-child(odd){
+		 background-color: var(--secondary);
+		 color: white;
+	}
+	.table-in tr:nth-child(even){
+		 background-color: var(--primary);
+		 color: white;
+	}
+.table-in tr a{
+	background-color: dodgerblue;
+	padding: 10px 10px;
+}	
+.infu{
+	display: flex;
+	justify-content: space-around;
+}
+.infu2{
+	display: flex;
+	justify-content: space-around;
+	margin: auto;
+}
+.Contact{
+	padding: 5px;
+	display: block;
+	position: fixed;
+}
+input{
+	padding: 5px;
+	width: 300px;
+	height: 40px;
+	border-radius: 10px 10px 10px 10px;
+	margin: auto;
+}
+textarea{
+	width: 300px;
+	border-radius: 10px 10px 10px 10px;
+}
+.option{
+	padding: 5px;
+	width: 300px;
+	height: 40px;	
+	border-radius: 10px 10px 10px 10px;
+}
+.nav-links ul{
+	display: none;
+}
+.nav-links ul li:hover > ul{
+	display: block;
+	
+}
+.fot-heading{
+	color: white;
+	margin-top: 20px;
+}
+.fotord{
+	width: 10%;
+	line-height: 2;
+	margin-top: 20px;
+}
+.fotcon{
+	justify-content: space-around;
+display: flex;
+margin-bottom: 5px;
+}
